@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Signate Grotesk';
+    src: url('SignateGrotesk-Black.eot');
+    src: url('SignateGrotesk-Black.eot?#iefix') format('embedded-opentype'),
+        url('SignateGrotesk-Black.woff2') format('woff2'),
+        url('SignateGrotesk-Black.woff') format('woff'),
+        url('SignateGrotesk-Black.ttf') format('truetype'),
+        url('SignateGrotesk-Black.svg#SignateGrotesk-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

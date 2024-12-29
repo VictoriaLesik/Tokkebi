@@ -1,0 +1,542 @@
+* {
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    max-width: 1440px;
+    background-color: #355541;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* common */
+
+.signate {
+    font-family: 'Signate Grotesk';
+}
+
+.main {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 40px;
+    color: white;
+    font-weight: 350;
+    font-style: normal;
+    line-height: 50px;
+}
+
+h2 {
+    font-family: 'Signate Grotesk';
+    font-size: 128px;
+    color: white;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.signika1 {
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.signika2 {
+    font-weight: bolder;
+    font-size: 32px;
+}
+
+.deledda {
+    font-family: 'Deledda Closed';
+}
+
+
+/* header */
+
+header {
+    width: auto;
+    height: 809px;
+    background-image: url(./img/back-1.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header {
+    width: 1374px;
+    margin-left: 45px;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 285px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+nav {
+    width: auto;
+    height: auto;
+    margin-top: 34px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav {
+    list-style: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+.menu {
+    height: 13px;
+    padding: 10px 18px 10px 18px;
+    margin-left: 15px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    color: #355541;
+    font-size: 48px;
+    text-decoration: none;
+    z-index: 20000;
+}
+
+.ghosts-out {
+    width: 755px;
+    height: 628px;
+    margin-left: 657px;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+.ghosts {
+    width: 755px;
+    height: 628px;
+}
+
+/* 2 block */
+
+.button-block {
+    height: 983px;
+    width: auto;
+    background-image: url(./img/back-2-1.png);
+    display: flex;
+    flex-direction: column;
+    z-index: 10000;
+}
+
+.curl-1 {
+    margin-left: 97px;
+    margin-top: -703px;
+    width: 1274px;
+    height: 506px;
+}
+
+.spans-middle {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 340px;
+    width: auto;
+    margin-top: 240px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.span-middle {
+    color: white;
+    font-size: 48px;
+    text-align: center;
+}
+
+.button {
+    color: #355541;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px 10px 15px 10px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 215px;
+    border: 0px;
+}
+
+.close {
+    color: #355541;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 9px 10px 9px 10px;
+    background-color: #ECECEC;
+    border-radius: 50px;
+    text-decoration: none;
+    border: 0px;
+    margin-left: 30px;
+}
+
+/* 3 block */
+
+.three-home {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 2200px;
+    background-color: #953731;
+}
+
+.home {
+    height: auto;
+    width: max-content;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-bottom: 90px;
+    display: flex;
+    flex-direction: row;
+}
+
+.img-home {
+    width: 563px;
+    height: 563px;
+    margin-right: 50px;
+}
+
+.text-home {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    color: white;
+    font-size: 64px;
+    margin-bottom: 30px;
+}
+
+.curl-2 {
+    margin-left: 5px;
+    margin-top: -2230px;
+    width: 1353px;
+    height: 2094px;
+}
+
+/* 4 block */
+
+.large-block {
+    display: flex;
+    flex-direction: column;
+    height: 1870px;
+    width: auto;
+}
+
+.people, .med, .one-med {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-people {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-people {
+    width: 942px;
+    height: 706px;
+    margin-right: 50px;
+    z-index: 20000;
+}
+
+.span-people {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 150px;
+    height: 440px;
+    width: auto;
+}
+
+.three-med {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-med {
+    margin-bottom: 10px;
+    height: 488px;
+    width: 376px;
+}
+
+.span-med {
+    font-size: 36px;
+    color: white;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.curl-3 {
+    width: 1379px;
+    height: 1098px;
+    margin-left: 60px;
+    margin-top: -1700px;
+}
+
+
+/* 5 block */
+
+.feedback {
+    display: flex;
+    flex-direction: column;
+    height: 2050px;
+    width: auto;
+    background-color: #953731;
+}
+
+.feed-block {
+    background-color: #355541;
+    width: 1344px;
+    height: 552px;
+    border-radius: 138px;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img-feed {
+    height: 552px;
+    width: 623px;
+    margin-right: 50px;
+}
+
+.feed-text {
+    height: 440px;
+    width: 600px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.feed-span {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 34px;
+}
+
+.right-text {
+    text-align: right;
+}
+
+.curl-4 {
+    margin-top: -2000px;
+    margin-left: 50px;
+    width: 1357px;
+    height: 214px;
+}
+
+
+/* 6 block */
+
+.gallary {
+    background-color: #355541;
+    height: 2400px;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.img-line {
+    width: 1400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+
+/* animation */
+
+.ani:hover {
+    transform: scale(1.05);
+    transition: 0.4s;
+}
+
+.ani {
+    z-index: 20000;
+    transition: 0.4s;
+}
+
+
+/* popup block */
+
+.window {
+    position: absolute;
+    display: none;
+    height: 983px;
+    width: 1440px;
+    background-image: url(./img/back-2-3.png);
+}
+
+.window.active {
+    display: block;
+    z-index: 30000;
+}
+
+.space {
+    height: 110px;
+}
+
+.form-block {
+    width: 1130px;
+    height: 760px;
+    border-radius: 138px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #355541;
+}
+
+h4 {
+    font-size: 64px;
+    color: white;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-in {
+    display: flex;
+    flex-direction: row;
+    margin-left: 110px;
+    margin-right: 170px;
+}
+
+.right-block {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.form-span, .form-href, .contact {
+    text-align: left;
+    text-decoration: none;
+}
+
+.contact {
+    font-size: 48px;
+}
+
+.form-span {
+    margin-top: 65px;
+}
+
+.form-href {
+    margin-top: 5px;
+}
+
+.form-href:hover {
+    transition: 0.4s;
+    opacity: 60%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.hr {
+    margin-bottom: 115px;
+    height: 1px;
+    width: 462px;
+    color: #D9D9D9;
+}
+
+.input {
+    font-size: 24px;
+    color: white;
+    border: none;
+    text-decoration: none;
+    margin-bottom: 5px;
+    height: 35px;
+    background-color: #355541;
+}
+
+.red-button {
+    margin-left: auto;
+    padding: 10px;
+    font-weight: 700;
+    background-color: #953731;
+    border-radius: 57px;
+    border: 0;
+    text-decoration: none;
+    margin-top: -80px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.form-buts {
+    margin-top: -15px;
+}
+
+#follow {
+    position: absolute;
+    text-align: center;
+    z-index: 100000;
+    margin-left: 60px;
+}
+
+
+/* fonts */
+
+@font-face {
+    font-family: 'Deledda Closed';
+    src: url('./fonts/deledda/DeleddaClosed-Black.eot');
+    src: url('./fonts/deledda/DeleddaClosed-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/deledda/DeleddaClosed-Black.woff2') format('woff2'),
+        url('./fonts/deledda/DeleddaClosed-Black.woff') format('woff'),
+        url('./fonts/deledda/DeleddaClosed-Black.ttf') format('truetype'),
+        url('./fonts/deledda/DeleddaClosed-Black.svg#DeleddaClosed-Black') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Signate Grotesk';
+    src: url('./fonts/signate-grotesk/SignateGrotesk-Black.eot');
+    src: url('./fonts/signate-grotesk/SignateGrotesk-Black.eot?#iefix') format('embedded-opentype'),
+        url('./fonts/signate-grotesk/SignateGrotesk-Black.woff2') format('woff2'),
+        url('./fonts/signate-grotesk/SignateGrotesk-Black.woff') format('woff'),
+        url('./fonts/signate-grotesk/SignateGrotesk-Black.ttf') format('truetype'),
+        url('./fonts/signate-grotesk/SignateGrotesk-Black.svg#SignateGrotesk-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}

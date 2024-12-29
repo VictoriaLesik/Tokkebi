@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Deledda Closed';
+    src: url('DeleddaClosed-Black.eot');
+    src: url('DeleddaClosed-Black.eot?#iefix') format('embedded-opentype'),
+        url('DeleddaClosed-Black.woff2') format('woff2'),
+        url('DeleddaClosed-Black.woff') format('woff'),
+        url('DeleddaClosed-Black.ttf') format('truetype'),
+        url('DeleddaClosed-Black.svg#DeleddaClosed-Black') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
